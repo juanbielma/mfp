@@ -28,4 +28,4 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
           AWS_BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET_NAME }}
           BUCKET_PATH: ""
-          DIST_LOCATION_CODE: ./dist
+          DIST_LOCATION_CODE: dist
